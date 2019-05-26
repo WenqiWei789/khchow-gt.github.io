@@ -4,7 +4,7 @@ This is a list of pioneering or representative papers concerning various topics 
 ## Graphs
 
 ### Network Representation Learning
-The complete list of must-read papers can be found [here](https://github.com/thunlp/NRLPapers) and the open source [OpenNE](https://github.com/thunlp/openne) supports most of the representative algorithms.
+The complete list of must-read papers can be found [here](https://github.com/thunlp/NRLPapers) and the open source toolkit [OpenNE](https://github.com/thunlp/openne) supports most of the representative algorithms.
 
 * [DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652) - Bryan Perozzi et al., KDD 2014
 * [GraRep: Learning Graph Representations with Global Structural Information](https://dl.acm.org/citation.cfm?id=2806512) - Shaosheng Cao et al., CIKM 2015
@@ -58,3 +58,4 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 * [MagNet: a Two-Pronged Defense against Adversarial Examples](https://arxiv.org/abs/1705.09064) - Dongyu Meng et al., CCS 2017
 * [Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks](https://arxiv.org/abs/1704.01155) - Weilin Xu et al., NDSS 2018
 * [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/abs/1805.06605) - Pouya Samangouei et al., ICLR 2018
+- [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204) - Florian Tramèr et al., ICLR 2018
