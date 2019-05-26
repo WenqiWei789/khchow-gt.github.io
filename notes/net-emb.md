@@ -1,5 +1,5 @@
 # Network Representation Learning
-This is a paper list concerning general topics on network representation learning. The open source [OpenNE](https://github.com/thunlp/openne) supports most of the representative algorithms.
+This is a paper list concerning general topics on network representation learning. The complete list of must-read papers can be found in this [link](https://github.com/thunlp/NRLPapers). The open source [OpenNE](https://github.com/thunlp/openne) supports most of the representative algorithms.
 
 * [DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652) - Bryan Perozzi et al., KDD 2014
 * [GraRep: Learning Graph Representations with Global Structural Information](https://dl.acm.org/citation.cfm?id=2806512) - Shaosheng Cao et al., CIKM 2015
