@@ -1,5 +1,7 @@
-# Network Representation Learning
-This is a paper list concerning general topics on network representation learning. The complete list of must-read papers can be found in this [link](https://github.com/thunlp/NRLPapers). The open source [OpenNE](https://github.com/thunlp/openne) supports most of the representative algorithms.
+This is a paper list concerning topics on machine learning.
+
+## Network Representation Learning
+The complete list of must-read papers can be found in this [link](https://github.com/thunlp/NRLPapers) and the open source [OpenNE](https://github.com/thunlp/openne) supports most of the representative algorithms.
 
 * [DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652) - Bryan Perozzi et al., KDD 2014
 * [GraRep: Learning Graph Representations with Global Structural Information](https://dl.acm.org/citation.cfm?id=2806512) - Shaosheng Cao et al., CIKM 2015
@@ -9,13 +11,12 @@ This is a paper list concerning general topics on network representation learnin
 
 ---
 
-# Adversarial Learning
-This is a paper list concerning general topics on adversarial learning.
+## Adversarial Learning
 
 * [Adversarial Autoencoders](https://arxiv.org/pdf/1511.05644.pdf) - Alireza Makhzani et al., ICLR 2016
 * [Adversarial Feature Learning](https://arxiv.org/abs/1605.09782) - Jeff Donahue et al., ICLR 2017
 
-## Adversarial Attacks
+### Adversarial Attacks
 * [Intriguing Properties of Neural Networks](https://arxiv.org/abs/1312.6199) - Christian Szegedy et al., 2014
 * [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) - Ian J. Goodfellow et al., ICLR 2015
 * [The Limitations of Deep Learning in Adversarial Settings](https://ieeexplore.ieee.org/abstract/document/7467366/) - Nicolas Papernot  et al., Euro S&P 2016
@@ -26,7 +27,7 @@ This is a paper list concerning general topics on adversarial learning.
 * [Practical Black-Box Attacks against Machine Learning](https://dl.acm.org/citation.cfm?id=3053009) - Nicolas Papernot et al., 2017
 * [Towards Evaluating the Robustness of Neural Networks](https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf) - Nicholas Carlini et al., S&P 2017
 
-## Adversarial Defenses
+### Adversarial Defenses
 * [Distillation as a Defense to Adversarial Perturbations Against Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/7546524/) - Nicolas Papernot et al., 2016
 * [MagNet: a Two-Pronged Defense against Adversarial Examples](https://arxiv.org/abs/1705.09064) - Dongyu Meng et al., CCS 2017
 * [Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks](https://arxiv.org/abs/1704.01155) - Weilin Xu et al., NDSS 2018
@@ -34,10 +35,9 @@ This is a paper list concerning general topics on adversarial learning.
 
 ---
 
-# Adversarial Learning on Graphs
-This is a paper list concerning adversarial learning on graph data.
+## Adversarial Learning on Graphs
 
-## Adversarial Attacks
+### Adversarial Attacks
 
 * [Adversarial Attacks on Neural Networks for Graph Data](https://dl.acm.org/authorize?N665889) - Daniel Zügner et al., KDD 2018 (Best Paper)
 * [Adversarial Attack on Graph Structured Data](https://arxiv.org/pdf/1806.02371.pdf) - Hanjun Dai et al., ICML 2018
@@ -45,7 +45,7 @@ This is a paper list concerning adversarial learning on graph data.
 * [Adversarial Attacks on Graph Neural Networks via Meta Learning](https://openreview.net/pdf?id=Bylnx209YX) - Daniel Zugner et al., ICLR 2019
 * [Towards Data Poisoning Attack against Knowledge Graph Embedding](https://arxiv.org/pdf/1904.12052.pdf) - Hengtong Zhang et al., IJCAI 2019
 
-## Adversarial Network Representation Learning
+### Adversarial Network Representation Learning
 
 * [Adversarial Network Embedding](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16498/15927) - Quanyu Dai et al., AAAI 2018
 * [Graph Representation Learning with Generative Adversarial Nets](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16611/15969) - Hongwei Wang et al., AAAI 2018
