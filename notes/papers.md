@@ -11,6 +11,7 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 * [LINE: Large-scale Information Network Embedding](https://arxiv.org/pdf/1503.03578.pdf) - Jian Tang et al., WWW 2015
 * [node2vec: Scalable Feature Learning for Networks](http://www.kdd.org/kdd2016/papers/files/rfp0218-groverA.pdf) - Aditya Grover et al., KDD 2016
 * [Structural Deep Network Embedding](https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf) - Daixin Wang et al., KDD 2016
+* [Network Embedding as Matrix Factorization: Unifying DeepWalk, LINE, PTE, and node2vec](http://keg.cs.tsinghua.edu.cn/jietang/publications/WSDM18-Qiu-et-al-NetMF-network-embedding.pdf) - Jiezhong Qiu et al., WSDM 2018
 
 ### Adversarial Attacks on Graphs
 
