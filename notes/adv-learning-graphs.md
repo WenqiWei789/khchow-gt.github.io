@@ -18,8 +18,3 @@ This is a paper list concerning adversarial learning on graph data.
 * [Semi-supervised Learning on Graphs with Generative Adversarial Nets](https://dl.acm.org/citation.cfm?id=3271768) -	Ming Ding et al., CIKM 2018
 * [NetGAN: Generating Graphs via Random Walks](http://proceedings.mlr.press/v80/bojchevski18a/bojchevski18a.pdf) - Aleksandar Bojchevski et al., ICML 2018
 * [Adversarial Training Methods for Network Embedding](https://dl.acm.org/citation.cfm?id=3313445) - Quanyu Dai et al., WWW 2019
-
----
-
-* [Adversarial Autoencoders](https://arxiv.org/pdf/1511.05644.pdf) - Alireza Makhzani et al., ICLR 2016
-* [Adversarial Feature Learning](https://arxiv.org/abs/1605.09782) - Jeff Donahue et al., ICLR 2017
