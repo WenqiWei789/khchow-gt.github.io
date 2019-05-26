@@ -9,7 +9,9 @@ This is a paper list concerning adversarial learning on graph data.
 * [Adversarial Attacks on Graph Neural Networks via Meta Learning](https://openreview.net/pdf?id=Bylnx209YX) - Daniel Zugner et al., ICLR 2019
 * [Towards Data Poisoning Attack against Knowledge Graph Embedding](https://arxiv.org/pdf/1904.12052.pdf) - Hengtong Zhang et al., IJCAI 2019
 
-## Adversarial Network Representation Learning
+## Network Representation Learning
+
+### Adversarial Learning
 
 * [Adversarial Network Embedding](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16498/15927) - Quanyu Dai et al., AAAI 2018
 * [Graph Representation Learning with Generative Adversarial Nets](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16611/15969) - Hongwei Wang et al., AAAI 2018
