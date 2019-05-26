@@ -41,7 +41,7 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 
 ---
 
-## Security and Privacy on Deep Neural Networks
+## Security on Deep Neural Networks
 
 ### Adversarial Attacks
 
