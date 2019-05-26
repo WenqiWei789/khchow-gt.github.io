@@ -17,3 +17,8 @@ This is a paper list concerning general topics on adversarial learning.
 * [MagNet: a Two-Pronged Defense against Adversarial Examples](https://arxiv.org/abs/1705.09064) - Dongyu Meng et al., CCS 2017
 * [Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks](https://arxiv.org/abs/1704.01155) - Weilin Xu et al., NDSS 2018
 * [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/abs/1805.06605) - Pouya Samangouei et al., ICLR 2018
+
+---
+
+* [Adversarial Autoencoders](https://arxiv.org/pdf/1511.05644.pdf) - Alireza Makhzani et al., ICLR 2016
+* [Adversarial Feature Learning](https://arxiv.org/abs/1605.09782) - Jeff Donahue et al., ICLR 2017
