@@ -17,7 +17,7 @@ The complete list of must-read papers can be found in this [link](https://github
 ### Adversarial Attacks
 
 * [Adversarial Attacks on Neural Networks for Graph Data](https://dl.acm.org/authorize?N665889) - Daniel Zügner et al., KDD 2018 (Best Paper)
-* [Adversarial Attack on Graph Structured Data](https://arxiv.org/pdf/1806.02371.pdf) - Hanjun Dai et al., ICML 2018
+* [Adversarial Attacks on Graph Structured Data](https://arxiv.org/pdf/1806.02371.pdf) - Hanjun Dai et al., ICML 2018
 * [Adversarial Attacks on Node Embeddings via Graph Poisoning](https://arxiv.org/pdf/1809.01093.pdf) - Aleksandar Bojchevski et al., ICML 2019
 * [Adversarial Attacks on Graph Neural Networks via Meta Learning](https://openreview.net/pdf?id=Bylnx209YX) - Daniel Zugner et al., ICLR 2019
 * [Towards Data Poisoning Attack against Knowledge Graph Embedding](https://arxiv.org/pdf/1904.12052.pdf) - Hengtong Zhang et al., IJCAI 2019
