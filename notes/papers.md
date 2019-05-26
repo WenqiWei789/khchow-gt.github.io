@@ -50,8 +50,9 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 * [Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples](https://arxiv.org/abs/1605.07277) - Nicolas Papernot et al., 2016
 * [Adversarial Examples in the Physical World](https://arxiv.org/abs/1607.02533) - Alexey Kurakin et al., ICLR 2017
 * [Adversarial Machine Learning at Scale](https://arxiv.org/abs/1611.01236) - Alexey Kurakin et al., ICLR 2017
-* [Practical Black-Box Attacks against Machine Learning](https://dl.acm.org/citation.cfm?id=3053009) - Nicolas Papernot et al., 2017
+* [Delving into Transferable Adversarial Examples and Black-box Attacks](https://arxiv.org/abs/1611.02770) - Yanpei Liu et al., ICLR 2017
 * [Towards Evaluating the Robustness of Neural Networks](https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf) - Nicholas Carlini et al., S&P 2017
+* [Practical Black-Box Attacks against Machine Learning](https://dl.acm.org/citation.cfm?id=3053009) - Nicolas Papernot et al., 2017
 
 ### Adversarial Defenses
 * [Distillation as a Defense to Adversarial Perturbations Against Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/7546524/) - Nicolas Papernot et al., 2016
