@@ -1,7 +1,9 @@
 # Representative Papers on Machine Learning
 This is a list of pioneering or representative papers concerning various topics on machine learning.
 
-## Network Representation Learning
+## Graphs
+
+### Network Representation Learning
 The complete list of must-read papers can be found [here](https://github.com/thunlp/NRLPapers) and the open source [OpenNE](https://github.com/thunlp/openne) supports most of the representative algorithms.
 
 * [DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652) - Bryan Perozzi et al., KDD 2014
@@ -10,11 +12,7 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 * [node2vec: Scalable Feature Learning for Networks](http://www.kdd.org/kdd2016/papers/files/rfp0218-groverA.pdf) - Aditya Grover et al., KDD 2016
 * [Structural Deep Network Embedding](https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf) - Daixin Wang et al., KDD 2016
 
----
-
-## Adversarial Learning on Graphs
-
-### Adversarial Attacks
+### Adversarial Attacks on Graphs
 
 * [Adversarial Attacks on Neural Networks for Graph Data](https://dl.acm.org/authorize?N665889) - Daniel Zügner et al., KDD 2018 (Best Paper)
 * [Adversarial Attacks on Graph Structured Data](https://arxiv.org/pdf/1806.02371.pdf) - Hanjun Dai et al., ICML 2018
@@ -22,7 +20,7 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 * [Adversarial Attacks on Graph Neural Networks via Meta Learning](https://openreview.net/pdf?id=Bylnx209YX) - Daniel Zugner et al., ICLR 2019
 * [Towards Data Poisoning Attack against Knowledge Graph Embedding](https://arxiv.org/pdf/1904.12052.pdf) - Hengtong Zhang et al., IJCAI 2019
 
-### Adversarial Network Representation Learning
+### Adversarial Learning for Network Representation Learning
 
 * [Adversarial Network Embedding](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16498/15927) - Quanyu Dai et al., AAAI 2018
 * [Graph Representation Learning with Generative Adversarial Nets](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16611/15969) - Hongwei Wang et al., AAAI 2018
