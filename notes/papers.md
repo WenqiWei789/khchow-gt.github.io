@@ -17,7 +17,7 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 
 * [BlogCatalog](http://socialcomputing.asu.edu/datasets/BlogCatalog) is a social network for users to publish blogs. In this dataset, each node is a BlogCatalog user and each edge is a friendship connection. Each node has multiple labels, indicating the topics of the user’s blog topics.
 * [Flickr](http://socialcomputing.asu.edu/datasets/Flickr) is social network for users to share images and videos. In this dataset, each node is a Flickr user and each edge is a friendship connection. Each node has a label, indicating the user’s interest group.
-* [YouTube](http://socialcomputing.asu.edu/datasets/YouTube) is a video sharing site where various interactions occur between users including contacts, subscriptions and favorite videos.
+* [YouTube](http://socialcomputing.asu.edu/datasets/YouTube) is a video sharing site where various interactions occur between users including contacts, subscriptions and favorite videos. In this dataset, each node is a YouTube user and each edge is a friendship connection. Each node has a label, indicating the user’s interest group.
 * [Wikipedia](http://snap.stanford.edu/node2vec/POS.mat) is a co-occurrence network of words appearing in the fist million bytes of the Wikipedia dump. In this dataset, each node is a word and each edge is a word co-occurrence relationship. Each node has a label, indicating the word’s part-of-speech tag.
 * [DBLP](https://aminer.org/citation) is an academic paper citation network built upon the DBLP repository.  In this dataset, each node is a paper and each edge is a citation. Each node has a label, indicating one of the areas for its paper’s conference venue.
 
