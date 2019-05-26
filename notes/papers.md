@@ -13,6 +13,7 @@ The complete list of must-read papers can be found in this [link](https://github
 ---
 
 ## Adversarial Learning
+This section contains papers about general topics on adversarial learning.
 
 * [Adversarial Autoencoders](https://arxiv.org/pdf/1511.05644.pdf) - Alireza Makhzani et al., ICLR 2016
 * [Adversarial Feature Learning](https://arxiv.org/abs/1605.09782) - Jeff Donahue et al., ICLR 2017
