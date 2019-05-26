@@ -1,5 +1,5 @@
 # Representative Papers on Machine Learning
-This is a paper list concerning topics on machine learning.
+This is a list of pioneering or representative papers concerning various topics on machine learning.
 
 ## Network Representation Learning
 The complete list of must-read papers can be found [here](https://github.com/thunlp/NRLPapers) and the open source [OpenNE](https://github.com/thunlp/openne) supports most of the representative algorithms.
