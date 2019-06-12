@@ -71,6 +71,8 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 * [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/abs/1805.06605) - Pouya Samangouei et al., ICLR 2018
 * [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204) - Florian Tramèr et al., ICLR 2018
 
+---
+
 ## AutoML
 
 * [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://openreview.net/pdf?id=rJl-b3RcF7) - Jonathan Frankle et al., ICLR 2019 (Best Paper)
