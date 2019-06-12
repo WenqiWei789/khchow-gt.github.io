@@ -14,14 +14,6 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 * [Network Embedding as Matrix Factorization: Unifying DeepWalk, LINE, PTE, and node2vec](http://keg.cs.tsinghua.edu.cn/jietang/publications/WSDM18-Qiu-et-al-NetMF-network-embedding.pdf) - Jiezhong Qiu et al., WSDM 2018
 * [A Survey on Network Embedding](https://arxiv.org/pdf/1711.08752.pdf) - Peng Cui et al., AAAI 2018
 
-#### Datasets
-
-* [BlogCatalog](http://socialcomputing.asu.edu/datasets/BlogCatalog) is a social network for users to publish blogs. In this dataset, each node is a BlogCatalog user and each edge is a friendship connection. Each node has multiple labels, indicating the topics of the user’s blog topics.
-* [Flickr](http://socialcomputing.asu.edu/datasets/Flickr) is social network for users to share images and videos. In this dataset, each node is a Flickr user and each edge is a friendship connection. Each node has a label, indicating the user’s interest group.
-* [YouTube](http://socialcomputing.asu.edu/datasets/YouTube) is a video sharing site where various interactions occur between users including contacts, subscriptions and favorite videos. In this dataset, each node is a YouTube user and each edge is a friendship connection. Each node has a label, indicating the user’s interest group.
-* [Wikipedia](http://snap.stanford.edu/node2vec/POS.mat) is a co-occurrence network of words appearing in the fist million bytes of the Wikipedia dump. In this dataset, each node is a word and each edge is a word co-occurrence relationship. Each node has a label, indicating the word’s part-of-speech tag.
-* [DBLP](https://aminer.org/citation) is an academic paper citation network built upon the DBLP repository.  In this dataset, each node is a paper and each edge is a citation. Each node has a label, indicating one of the areas for its paper’s conference venue.
-
 ### Adversarial Attacks on Graphs
 
 * [Adversarial Attacks on Neural Networks for Graph Data](https://dl.acm.org/authorize?N665889) - Daniel Zügner et al., KDD 2018 (Best Paper)
@@ -39,6 +31,14 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 * [Semi-supervised Learning on Graphs with Generative Adversarial Nets](https://dl.acm.org/citation.cfm?id=3271768) -	Ming Ding et al., CIKM 2018
 * [NetGAN: Generating Graphs via Random Walks](http://proceedings.mlr.press/v80/bojchevski18a/bojchevski18a.pdf) - Aleksandar Bojchevski et al., ICML 2018
 * [Adversarial Training Methods for Network Embedding](https://dl.acm.org/citation.cfm?id=3313445) - Quanyu Dai et al., WWW 2019
+
+### Datasets
+
+* [BlogCatalog](http://socialcomputing.asu.edu/datasets/BlogCatalog) is a social network for users to publish blogs. In this dataset, each node is a BlogCatalog user and each edge is a friendship connection. Each node has multiple labels, indicating the topics of the user’s blog topics.
+* [Flickr](http://socialcomputing.asu.edu/datasets/Flickr) is social network for users to share images and videos. In this dataset, each node is a Flickr user and each edge is a friendship connection. Each node has a label, indicating the user’s interest group.
+* [YouTube](http://socialcomputing.asu.edu/datasets/YouTube) is a video sharing site where various interactions occur between users including contacts, subscriptions and favorite videos. In this dataset, each node is a YouTube user and each edge is a friendship connection. Each node has a label, indicating the user’s interest group.
+* [Wikipedia](http://snap.stanford.edu/node2vec/POS.mat) is a co-occurrence network of words appearing in the fist million bytes of the Wikipedia dump. In this dataset, each node is a word and each edge is a word co-occurrence relationship. Each node has a label, indicating the word’s part-of-speech tag.
+* [DBLP](https://aminer.org/citation) is an academic paper citation network built upon the DBLP repository.  In this dataset, each node is a paper and each edge is a citation. Each node has a label, indicating one of the areas for its paper’s conference venue.
 
 ---
 
