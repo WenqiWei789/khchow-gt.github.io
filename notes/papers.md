@@ -75,4 +75,4 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 
 ## AutoML
 
-* [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://openreview.net/pdf?id=rJl-b3RcF7) - Jonathan Frankle et al., ICLR 2019 (Best Paper)
+* [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/pdf/1803.03635.pdf) - Jonathan Frankle et al., ICLR 2019 (Best Paper)
