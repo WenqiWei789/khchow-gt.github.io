@@ -1,4 +1,4 @@
-# Representative Papers on Machine Learning
+# Machine Learning
 This is a list of pioneering or representative papers concerning various topics on machine learning.
 
 ## Graphs
