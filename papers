@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ka-Ho Chow - Georgia Tech</title>
+
+    <!-- favicon -->
+    <link href="favicon.ico" rel=icon>
+
+    <!-- web-fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116655158-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-116655158-2');
+    </script>
+
+</head>
+<body>
+<div id="main-wrapper">
+
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="profile-wrapper">
+                    <p><img src="img/profile.jpg" class="img-responsive" alt=""/></p>
+                    <p>
+                        Ph.D. Student <a target="_blank" href="https://www.linkedin.com/in/khchow">[LinkedIn]</a><br>
+                        School of Computer Science<br>
+                        College of Computing<br>
+                        Georgia Tech<br>
+                        <b>Email:</b> <a href="mailto:khchow@gatech.edu">khchow@gatech.edu</a><br>
+                        <b>Office:</b> Room 3337, Klaus Advanced Computing Building<br>
+                        <b>Address:</b> 266 Ferst Dr, Atlanta, GA 30332-0765 USA<br>
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                
+                <h1 id="representativepapersonmachinelearning">Representative Papers on Machine Learning</h1>
+
+<p>This is a list of pioneering or representative papers concerning various topics on machine learning.</p>
+
+<h2 id="graphs">Graphs</h2>
+
+<h3 id="networkrepresentationlearning">Network Representation Learning</h3>
+
+<p>The complete list of must-read papers can be found <a href="https://github.com/thunlp/NRLPapers">here</a> and the open source toolkit <a href="https://github.com/thunlp/openne">OpenNE</a> supports most of the representative algorithms.</p>
+
+<ul>
+<li><a href="https://arxiv.org/pdf/1403.6652">DeepWalk: Online Learning of Social Representations</a> - Bryan Perozzi et al., KDD 2014</li>
+
+<li><a href="https://dl.acm.org/citation.cfm?id=2806512">GraRep: Learning Graph Representations with Global Structural Information</a> - Shaosheng Cao et al., CIKM 2015</li>
+
+<li><a href="https://arxiv.org/pdf/1503.03578.pdf">LINE: Large-scale Information Network Embedding</a> - Jian Tang et al., WWW 2015</li>
+
+<li><a href="http://www.kdd.org/kdd2016/papers/files/rfp0218-groverA.pdf">node2vec: Scalable Feature Learning for Networks</a> - Aditya Grover et al., KDD 2016</li>
+
+<li><a href="https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf">Structural Deep Network Embedding</a> - Daixin Wang et al., KDD 2016</li>
+
+<li><a href="http://keg.cs.tsinghua.edu.cn/jietang/publications/WSDM18-Qiu-et-al-NetMF-network-embedding.pdf">Network Embedding as Matrix Factorization: Unifying DeepWalk, LINE, PTE, and node2vec</a> - Jiezhong Qiu et al., WSDM 2018</li>
+
+<li><a href="https://arxiv.org/pdf/1711.08752.pdf">A Survey on Network Embedding</a> - Peng Cui et al., AAAI 2018</li>
+</ul>
+
+<h3 id="adversarialattacksongraphs">Adversarial Attacks on Graphs</h3>
+
+<ul>
+<li><a href="https://dl.acm.org/authorize?N665889">Adversarial Attacks on Neural Networks for Graph Data</a> - Daniel Zügner et al., KDD 2018 (Best Paper)</li>
+
+<li><a href="https://arxiv.org/pdf/1806.02371.pdf">Adversarial Attacks on Graph Structured Data</a> - Hanjun Dai et al., ICML 2018</li>
+
+<li><a href="https://arxiv.org/pdf/1809.01093.pdf">Adversarial Attacks on Node Embeddings via Graph Poisoning</a> - Aleksandar Bojchevski et al., ICML 2019</li>
+
+<li><a href="https://openreview.net/pdf?id=Bylnx209YX">Adversarial Attacks on Graph Neural Networks via Meta Learning</a> - Daniel Zugner et al., ICLR 2019</li>
+
+<li><a href="https://arxiv.org/pdf/1904.12052.pdf">Towards Data Poisoning Attack against Knowledge Graph Embedding</a> - Hengtong Zhang et al., IJCAI 2019</li>
+</ul>
+
+<h3 id="adversariallearningfornetworkrepresentationlearning">Adversarial Learning for Network Representation Learning</h3>
+
+<ul>
+<li><a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16498/15927">Adversarial Network Embedding</a> - Quanyu Dai et al., AAAI 2018</li>
+
+<li><a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16611/15969">Graph Representation Learning with Generative Adversarial Nets</a> - Hongwei Wang et al., AAAI 2018</li>
+
+<li><a href="https://www.ijcai.org/proceedings/2018/0362.pdf">Adversarially Regularized Graph Autoencoder for Graph Embedding</a> - Shirui Pan et al., IJCAI 2018</li>
+
+<li><a href="https://dl.acm.org/authorize.cfm?key=N665860">Learning Deep Network Representations with Adversarially Regularized Autoencoders</a> - Wenchao Yu et al., KDD 2018</li>
+
+<li><a href="https://dl.acm.org/citation.cfm?id=3271768">Semi-supervised Learning on Graphs with Generative Adversarial Nets</a> -    Ming Ding et al., CIKM 2018</li>
+
+<li><a href="http://proceedings.mlr.press/v80/bojchevski18a/bojchevski18a.pdf">NetGAN: Generating Graphs via Random Walks</a> - Aleksandar Bojchevski et al., ICML 2018</li>
+
+<li><a href="https://dl.acm.org/citation.cfm?id=3313445">Adversarial Training Methods for Network Embedding</a> - Quanyu Dai et al., WWW 2019</li>
+</ul>
+
+<h3 id="datasets">Datasets</h3>
+
+<ul>
+<li><a href="http://socialcomputing.asu.edu/datasets/BlogCatalog">BlogCatalog</a> is a social network for users to publish blogs. In this dataset, each node is a BlogCatalog user and each edge is a friendship connection. Each node has multiple labels, indicating the topics of the user’s blog topics.</li>
+
+<li><a href="http://socialcomputing.asu.edu/datasets/Flickr">Flickr</a> is social network for users to share images and videos. In this dataset, each node is a Flickr user and each edge is a friendship connection. Each node has a label, indicating the user’s interest group.</li>
+
+<li><a href="http://socialcomputing.asu.edu/datasets/YouTube">YouTube</a> is a video sharing site where various interactions occur between users including contacts, subscriptions and favorite videos. In this dataset, each node is a YouTube user and each edge is a friendship connection. Each node has a label, indicating the user’s interest group.</li>
+
+<li><a href="http://snap.stanford.edu/node2vec/POS.mat">Wikipedia</a> is a co-occurrence network of words appearing in the fist million bytes of the Wikipedia dump. In this dataset, each node is a word and each edge is a word co-occurrence relationship. Each node has a label, indicating the word’s part-of-speech tag.</li>
+
+<li><a href="https://aminer.org/citation">DBLP</a> is an academic paper citation network built upon the DBLP repository.  In this dataset, each node is a paper and each edge is a citation. Each node has a label, indicating one of the areas for its paper’s conference venue.</li>
+</ul>
+
+<hr />
+
+<h2 id="adversariallearning">Adversarial Learning</h2>
+
+<ul>
+<li><a href="https://arxiv.org/pdf/1511.05644.pdf">Adversarial Autoencoders</a> - Alireza Makhzani et al., ICLR 2016</li>
+
+<li><a href="https://arxiv.org/abs/1605.09782">Adversarial Feature Learning</a> - Jeff Donahue et al., ICLR 2017</li>
+</ul>
+
+<hr />
+
+<h2 id="securityondeepneuralnetworks">Security on Deep Neural Networks</h2>
+
+<h3 id="adversarialattacks">Adversarial Attacks</h3>
+
+<ul>
+<li><a href="https://arxiv.org/abs/1312.6199">Intriguing Properties of Neural Networks</a> - Christian Szegedy et al., 2014</li>
+
+<li><a href="https://arxiv.org/abs/1412.6572">Explaining and Harnessing Adversarial Examples</a> - Ian J. Goodfellow et al., ICLR 2015</li>
+
+<li><a href="https://ieeexplore.ieee.org/abstract/document/7467366/">The Limitations of Deep Learning in Adversarial Settings</a> - Nicolas Papernot  et al., Euro S&amp;P 2016</li>
+
+<li><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Moosavi-Dezfooli_DeepFool_A_Simple_CVPR_2016_paper.html">DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks</a> - Seyed-Mohsen Moosavi-Dezfooli et al., CVPR 2016</li>
+
+<li><a href="https://arxiv.org/abs/1605.07277">Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples</a> - Nicolas Papernot et al., 2016</li>
+
+<li><a href="https://arxiv.org/abs/1607.02533">Adversarial Examples in the Physical World</a> - Alexey Kurakin et al., ICLR 2017</li>
+
+<li><a href="https://arxiv.org/abs/1611.01236">Adversarial Machine Learning at Scale</a> - Alexey Kurakin et al., ICLR 2017</li>
+
+<li><a href="https://arxiv.org/abs/1611.02770">Delving into Transferable Adversarial Examples and Black-box Attacks</a> - Yanpei Liu et al., ICLR 2017</li>
+
+<li><a href="https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf">Towards Evaluating the Robustness of Neural Networks</a> - Nicholas Carlini et al., S&amp;P 2017</li>
+
+<li><a href="https://dl.acm.org/citation.cfm?id=3053009">Practical Black-Box Attacks against Machine Learning</a> - Nicolas Papernot et al., 2017</li>
+</ul>
+
+<h3 id="adversarialdefenses">Adversarial Defenses</h3>
+
+<ul>
+<li><a href="https://ieeexplore.ieee.org/abstract/document/7546524/">Distillation as a Defense to Adversarial Perturbations Against Deep Neural Networks</a> - Nicolas Papernot et al., 2016</li>
+
+<li><a href="https://arxiv.org/abs/1705.09064">MagNet: a Two-Pronged Defense against Adversarial Examples</a> - Dongyu Meng et al., CCS 2017</li>
+
+<li><a href="https://arxiv.org/abs/1704.01155">Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks</a> - Weilin Xu et al., NDSS 2018</li>
+
+<li><a href="https://arxiv.org/abs/1805.06605">Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models</a> - Pouya Samangouei et al., ICLR 2018</li>
+
+<li><a href="https://arxiv.org/abs/1705.07204">Ensemble Adversarial Training: Attacks and Defenses</a> - Florian Tramèr et al., ICLR 2018</li>
+</ul>
+
+<hr />
+
+<h2 id="automl">AutoML</h2>
+
+<ul>
+<li><a href="https://arxiv.org/pdf/1803.03635.pdf">The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks</a> - Jonathan Frankle et al., ICLR 2019 (Best Paper)</li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<footer class="footer">
+</footer>
+<!-- .footer -->
+
+</div>
+<!-- #main-wrapper -->
+
+<!-- jquery -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
