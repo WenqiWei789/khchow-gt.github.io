@@ -114,12 +114,6 @@ ul {
     display: inline-block;
     }
 
-.header .name-wrapper-right
- {
-    display: inline-block;
-    float: right;
-    }
-
 @media (max-width : 768px) {
     .header {
         padding    : 20px 0;
@@ -133,11 +127,6 @@ ul {
 @media (max-width : 600px){
     .header{
         padding: 20px;
-        }
-    .header .name-wrapper-right
-     {
-        display: inline-block;
-        float: left;
         }
     }
 
