@@ -14,6 +14,13 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 * [Network Embedding as Matrix Factorization: Unifying DeepWalk, LINE, PTE, and node2vec](http://keg.cs.tsinghua.edu.cn/jietang/publications/WSDM18-Qiu-et-al-NetMF-network-embedding.pdf) - Jiezhong Qiu et al., WSDM 2018
 * [A Survey on Network Embedding](https://arxiv.org/pdf/1711.08752.pdf) - Peng Cui et al., AAAI 2018 ✔
 
+#### Dynamic Networks
+* [Dynamic Network Embedding: An Extended Approach for Skip-gram based Network Embedding](https://www.ijcai.org/proceedings/2018/0288.pdf) - Lun Du et al., IJCAI 2018
+* [DepthLGP: Learning Embeddings of Out-of-Sample Nodes in Dynamic Networks](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17096) - Jianxin Ma et al., AAAI 2018
+* [High-Order Proximity Preserved Embedding for Dynamic Networks](https://ieeexplore.ieee.org/document/8329541) - Dingyuan Zhu et al., TKDE
+* [TIMERS: Error-Bounded SVD Restart on Dynamic Networks](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16674/15691) - Ziwei Zhang et al., AAAI 2018
+* [Scalable Optimization for Embedding Highly-Dynamic and Recency-Sensitive Data](https://www.kdd.org/kdd2018/accepted-papers/view/scalable-optimization-for-embedding-highly-dynamic-and-recency-sensitive-da) - Xumin Chen et al., KDD 2018
+
 ### Adversarial Attacks on Graphs
 
 * [Adversarial Attacks on Neural Networks for Graph Data](https://dl.acm.org/authorize?N665889) - Daniel Zügner et al., KDD 2018 (Best Paper)
