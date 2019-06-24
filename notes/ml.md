@@ -8,14 +8,14 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 
 * [DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652) - Bryan Perozzi et al., KDD 2014 ✔
 * [GraRep: Learning Graph Representations with Global Structural Information](https://dl.acm.org/citation.cfm?id=2806512) - Shaosheng Cao et al., CIKM 2015
-* [LINE: Large-scale Information Network Embedding](https://arxiv.org/pdf/1503.03578.pdf) - Jian Tang et al., WWW 2015
+* [LINE: Large-scale Information Network Embedding](https://arxiv.org/pdf/1503.03578.pdf) - Jian Tang et al., WWW 2015 ✔
 * [node2vec: Scalable Feature Learning for Networks](http://www.kdd.org/kdd2016/papers/files/rfp0218-groverA.pdf) - Aditya Grover et al., KDD 2016
 * [Structural Deep Network Embedding](https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf) - Daixin Wang et al., KDD 2016
 * [Network Embedding as Matrix Factorization: Unifying DeepWalk, LINE, PTE, and node2vec](http://keg.cs.tsinghua.edu.cn/jietang/publications/WSDM18-Qiu-et-al-NetMF-network-embedding.pdf) - Jiezhong Qiu et al., WSDM 2018
 * [A Survey on Network Embedding](https://arxiv.org/pdf/1711.08752.pdf) - Peng Cui et al., AAAI 2018 ✔
 
 #### Dynamic Networks
-* [Dynamic Network Embedding: An Extended Approach for Skip-gram based Network Embedding](https://www.ijcai.org/proceedings/2018/0288.pdf) - Lun Du et al., IJCAI 2018
+* [Dynamic Network Embedding: An Extended Approach for Skip-gram based Network Embedding](https://www.ijcai.org/proceedings/2018/0288.pdf) - Lun Du et al., IJCAI 2018 ✔
 * [DepthLGP: Learning Embeddings of Out-of-Sample Nodes in Dynamic Networks](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17096) - Jianxin Ma et al., AAAI 2018
 * [High-Order Proximity Preserved Embedding for Dynamic Networks](https://ieeexplore.ieee.org/document/8329541) - Dingyuan Zhu et al., TKDE
 * [TIMERS: Error-Bounded SVD Restart on Dynamic Networks](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16674/15691) - Ziwei Zhang et al., AAAI 2018
