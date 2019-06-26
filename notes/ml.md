@@ -31,7 +31,7 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 
 ### Adversarial Learning for Network Representation Learning
 
-* [Adversarial Network Embedding](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16498/15927) - Quanyu Dai et al., AAAI 2018
+* [Adversarial Network Embedding](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16498/15927) - Quanyu Dai et al., AAAI 2018 ✔
 * [Graph Representation Learning with Generative Adversarial Nets](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16611/15969) - Hongwei Wang et al., AAAI 2018
 * [Adversarially Regularized Graph Autoencoder for Graph Embedding](https://www.ijcai.org/proceedings/2018/0362.pdf) - Shirui Pan et al., IJCAI 2018
 * [Learning Deep Network Representations with Adversarially Regularized Autoencoders](https://dl.acm.org/authorize.cfm?key=N665860) - Wenchao Yu et al., KDD 2018
