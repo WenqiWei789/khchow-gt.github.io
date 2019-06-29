@@ -33,11 +33,11 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 
 * [Adversarial Network Embedding](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16498/15927) - Quanyu Dai et al., AAAI 2018 ✔
 * [Graph Representation Learning with Generative Adversarial Nets](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16611/15969) - Hongwei Wang et al., AAAI 2018
-* [Adversarially Regularized Graph Autoencoder for Graph Embedding](https://www.ijcai.org/proceedings/2018/0362.pdf) - Shirui Pan et al., IJCAI 2018
+* [Adversarially Regularized Graph Autoencoder for Graph Embedding](https://www.ijcai.org/proceedings/2018/0362.pdf) - Shirui Pan et al., IJCAI 2018 ✔
 * [Learning Deep Network Representations with Adversarially Regularized Autoencoders](https://dl.acm.org/authorize.cfm?key=N665860) - Wenchao Yu et al., KDD 2018
-* [Semi-supervised Learning on Graphs with Generative Adversarial Nets](https://dl.acm.org/citation.cfm?id=3271768) -	Ming Ding et al., CIKM 2018
+* [Semi-supervised Learning on Graphs with Generative Adversarial Nets](https://dl.acm.org/citation.cfm?id=3271768) -	Ming Ding et al., CIKM 2018 ✔
 * [NetGAN: Generating Graphs via Random Walks](http://proceedings.mlr.press/v80/bojchevski18a/bojchevski18a.pdf) - Aleksandar Bojchevski et al., ICML 2018
-* [Adversarial Training Methods for Network Embedding](https://dl.acm.org/citation.cfm?id=3313445) - Quanyu Dai et al., WWW 2019
+* [Adversarial Training Methods for Network Embedding](https://dl.acm.org/citation.cfm?id=3313445) - Quanyu Dai et al., WWW 2019 ✔
 
 ### Datasets
 
