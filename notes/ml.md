@@ -1,6 +1,44 @@
 # Machine Learning
 This is a curated list of representative papers on machine learning maintained by [Ka-Ho Chow](https://khchow.com). [[Edit]](https://github.com/khchow-gt/khchow-gt.github.io/edit/master/notes/ml.md)
 
+## Security on Deep Neural Networks
+
+### Adversarial Attacks
+
+* [Intriguing Properties of Neural Networks](https://arxiv.org/abs/1312.6199) - Christian Szegedy et al., 2014
+* [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) - Ian J. Goodfellow et al., ICLR 2015
+* [The Limitations of Deep Learning in Adversarial Settings](https://ieeexplore.ieee.org/abstract/document/7467366/) - Nicolas Papernot  et al., Euro S&P 2016
+* [DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Moosavi-Dezfooli_DeepFool_A_Simple_CVPR_2016_paper.html) - Seyed-Mohsen Moosavi-Dezfooli et al., CVPR 2016
+* [Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples](https://arxiv.org/abs/1605.07277) - Nicolas Papernot et al., 2016
+* [Adversarial Examples in the Physical World](https://arxiv.org/abs/1607.02533) - Alexey Kurakin et al., ICLR 2017
+* [Adversarial Machine Learning at Scale](https://arxiv.org/abs/1611.01236) - Alexey Kurakin et al., ICLR 2017
+* [Delving into Transferable Adversarial Examples and Black-box Attacks](https://arxiv.org/abs/1611.02770) - Yanpei Liu et al., ICLR 2017
+* [Towards Evaluating the Robustness of Neural Networks](https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf) - Nicholas Carlini et al., S&P 2017
+* [Practical Black-Box Attacks against Machine Learning](https://dl.acm.org/citation.cfm?id=3053009) - Nicolas Papernot et al., 2017
+* [EAD: Elastic-Net Attacks to Deep Neural Networks via Adversarial Examples](https://arxiv.org/abs/1709.04114) - Pin-Yu Chen et al., AAAI 2018 *
+* [Attacking the Madry Defense Model with L1-based Adversarial Examples](https://arxiv.org/abs/1710.10733) - Yash Sharma et al., ICLR 2018 (Workshop) *
+
+### Adversarial Defenses
+* [Distillation as a Defense to Adversarial Perturbations Against Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/7546524/) - Nicolas Papernot et al., 2016
+* [MagNet: a Two-Pronged Defense against Adversarial Examples](https://arxiv.org/abs/1705.09064) - Dongyu Meng et al., CCS 2017
+* [Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks](https://arxiv.org/abs/1704.01155) - Weilin Xu et al., NDSS 2018
+* [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/abs/1805.06605) - Pouya Samangouei et al., ICLR 2018
+* [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204) - Florian Tramèr et al., ICLR 2018
+* [Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/abs/1706.06083) - Aleksander Madry et al., ICLR 2018 *
+
+### Robustness
+
+* [Maximum Resilience of Artificial Neural Networks](https://arxiv.org/abs/1705.01040) - Chih-Hong Cheng et al., ATVA 2017 *
+* [Output Range Analysis for Deep Neural Networks](https://arxiv.org/abs/1709.09130) - Souradeep Dutta et al., NFM 2018 *
+* [Formal Security Analysis of Neural Networks using Symbolic Intervals](https://arxiv.org/abs/1804.10829) - Shiqi Wang et al., USENIX Security 2018 *
+* [Efficient Formal Safety Analysis of Neural Networks](https://arxiv.org/abs/1809.08098) - Shiqi Wang et al., NIPS 2018 *
+* [A Unified View of Piecewise Linear Neural Network Verification](https://arxiv.org/abs/1711.00455) - Rudy Bunel et al., NIPS 2018 *
+* [Scaling Provable Adversarial Defenses](https://arxiv.org/abs/1805.12514) - Eric Wong et al., NIPS 2018 *
+* [Evaluating the Robustness of Neural Networks: An Extreme Value Theory Approach](https://arxiv.org/abs/1801.10578) - Tsui-Wei Weng et al., ICLR 2018 *
+* [Evaluating Robustness of Neural Networks with Mixed Integer Programming](https://arxiv.org/abs/1711.07356) - Vincent Tjeng et al., ICLR 2019 *
+
+---
+
 ## Graphs
 
 ### Network Representation Learning
@@ -53,30 +91,6 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 
 * [Adversarial Autoencoders](https://arxiv.org/pdf/1511.05644.pdf) - Alireza Makhzani et al., ICLR 2016
 * [Adversarial Feature Learning](https://arxiv.org/abs/1605.09782) - Jeff Donahue et al., ICLR 2017
-
----
-
-## Security on Deep Neural Networks
-
-### Adversarial Attacks
-
-* [Intriguing Properties of Neural Networks](https://arxiv.org/abs/1312.6199) - Christian Szegedy et al., 2014
-* [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) - Ian J. Goodfellow et al., ICLR 2015
-* [The Limitations of Deep Learning in Adversarial Settings](https://ieeexplore.ieee.org/abstract/document/7467366/) - Nicolas Papernot  et al., Euro S&P 2016
-* [DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Moosavi-Dezfooli_DeepFool_A_Simple_CVPR_2016_paper.html) - Seyed-Mohsen Moosavi-Dezfooli et al., CVPR 2016
-* [Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples](https://arxiv.org/abs/1605.07277) - Nicolas Papernot et al., 2016
-* [Adversarial Examples in the Physical World](https://arxiv.org/abs/1607.02533) - Alexey Kurakin et al., ICLR 2017
-* [Adversarial Machine Learning at Scale](https://arxiv.org/abs/1611.01236) - Alexey Kurakin et al., ICLR 2017
-* [Delving into Transferable Adversarial Examples and Black-box Attacks](https://arxiv.org/abs/1611.02770) - Yanpei Liu et al., ICLR 2017
-* [Towards Evaluating the Robustness of Neural Networks](https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf) - Nicholas Carlini et al., S&P 2017
-* [Practical Black-Box Attacks against Machine Learning](https://dl.acm.org/citation.cfm?id=3053009) - Nicolas Papernot et al., 2017
-
-### Adversarial Defenses
-* [Distillation as a Defense to Adversarial Perturbations Against Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/7546524/) - Nicolas Papernot et al., 2016
-* [MagNet: a Two-Pronged Defense against Adversarial Examples](https://arxiv.org/abs/1705.09064) - Dongyu Meng et al., CCS 2017
-* [Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks](https://arxiv.org/abs/1704.01155) - Weilin Xu et al., NDSS 2018
-* [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/abs/1805.06605) - Pouya Samangouei et al., ICLR 2018
-* [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204) - Florian Tramèr et al., ICLR 2018
 
 ---
 
