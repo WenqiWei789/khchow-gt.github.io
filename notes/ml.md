@@ -15,8 +15,8 @@ This is a curated list of representative papers on machine learning maintained b
 * [Delving into Transferable Adversarial Examples and Black-box Attacks](https://arxiv.org/abs/1611.02770) - Yanpei Liu et al., ICLR 2017
 * [Towards Evaluating the Robustness of Neural Networks](https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf) - Nicholas Carlini et al., S&P 2017
 * [Practical Black-Box Attacks against Machine Learning](https://dl.acm.org/citation.cfm?id=3053009) - Nicolas Papernot et al., 2017
-* [EAD: Elastic-Net Attacks to Deep Neural Networks via Adversarial Examples](https://arxiv.org/abs/1709.04114) - Pin-Yu Chen et al., AAAI 2018 *
-* [Attacking the Madry Defense Model with L1-based Adversarial Examples](https://arxiv.org/abs/1710.10733) - Yash Sharma et al., ICLR 2018 (Workshop) *
+* [EAD: Elastic-Net Attacks to Deep Neural Networks via Adversarial Examples](https://arxiv.org/abs/1709.04114) - Pin-Yu Chen et al., AAAI 2018 ✔
+* [Attacking the Madry Defense Model with L1-based Adversarial Examples](https://arxiv.org/abs/1710.10733) - Yash Sharma et al., ICLR 2018 (Workshop) ✔
 
 ### Adversarial Defenses
 * [Distillation as a Defense to Adversarial Perturbations Against Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/7546524/) - Nicolas Papernot et al., 2016
@@ -24,7 +24,7 @@ This is a curated list of representative papers on machine learning maintained b
 * [Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks](https://arxiv.org/abs/1704.01155) - Weilin Xu et al., NDSS 2018
 * [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/abs/1805.06605) - Pouya Samangouei et al., ICLR 2018
 * [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204) - Florian Tramèr et al., ICLR 2018
-* [Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/abs/1706.06083) - Aleksander Madry et al., ICLR 2018 *
+* [Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/abs/1706.06083) - Aleksander Madry et al., ICLR 2018 ✔
 
 ### Robustness
 
