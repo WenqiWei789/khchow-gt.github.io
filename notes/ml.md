@@ -43,8 +43,8 @@ This is a curated list of representative papers on machine learning maintained b
 
 ## Autoencoders
 
-* [Extracting and Composing Robust Features with Denoising Autoencoders](http://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf) - Pascal Vincent et al., ICML 2008
-* [Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion](http://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf) - Pascal Vincent et al., JMLR 2010
+* [Extracting and Composing Robust Features with Denoising Autoencoders](http://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf) - Pascal Vincent et al., ICML 2008 ✔
+* [Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion](http://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf) - Pascal Vincent et al., JMLR 2010 ✔
 * [Anomaly Detection with Robust Deep Autoencoders](https://www.eecs.yorku.ca/course_archive/2017-18/F/6412/reading/kdd17p665.pdf) - Chong Zhou et al., KDD 2018 ✔ [[Code]](https://github.com/zc8340311/RobustAutoencoder)
 
 ---
