@@ -1,6 +1,8 @@
 # Machine Learning
 This is a curated list of representative papers on machine learning maintained by [Ka-Ho Chow](https://khchow.com). [[Edit]](https://github.com/khchow-gt/khchow-gt.github.io/edit/master/notes/ml.md)
 
+---
+
 ## Security on Deep Neural Networks
 
 ### Adversarial Attacks
