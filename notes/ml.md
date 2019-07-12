@@ -39,6 +39,12 @@ This is a curated list of representative papers on machine learning maintained b
 
 ---
 
+## Autoencoders
+
+* [Anomaly Detection with Robust Deep Autoencoders](https://www.eecs.yorku.ca/course_archive/2017-18/F/6412/reading/kdd17p665.pdf) - Chong Zhou et al., KDD 2018 *
+
+---
+
 ## Graphs
 
 ### Network Representation Learning
