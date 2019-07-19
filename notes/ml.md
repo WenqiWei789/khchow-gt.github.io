@@ -15,29 +15,37 @@ This is a curated list of representative papers on machine learning maintained b
 * [Adversarial Examples in the Physical World](https://arxiv.org/abs/1607.02533) - Alexey Kurakin et al., ICLR 2017
 * [Adversarial Machine Learning at Scale](https://arxiv.org/abs/1611.01236) - Alexey Kurakin et al., ICLR 2017
 * [Delving into Transferable Adversarial Examples and Black-box Attacks](https://arxiv.org/abs/1611.02770) - Yanpei Liu et al., ICLR 2017
-* [Towards Evaluating the Robustness of Neural Networks](https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf) - Nicholas Carlini et al., S&P 2017
+* [Towards Evaluating the Robustness of Neural Networks](https://nicholas.carlini.com/papers/2017_sp_nnrobustattacks.pdf) [[Code]](https://github.com/carlini/nn_robust_attacks) - Nicholas Carlini et al., S&P 2017
 * [Practical Black-Box Attacks against Machine Learning](https://dl.acm.org/citation.cfm?id=3053009) - Nicolas Papernot et al., 2017
-* [EAD: Elastic-Net Attacks to Deep Neural Networks via Adversarial Examples](https://arxiv.org/abs/1709.04114) - Pin-Yu Chen et al., AAAI 2018 ✔
+* [EAD: Elastic-Net Attacks to Deep Neural Networks via Adversarial Examples](https://arxiv.org/abs/1709.04114) [[Code]](https://github.com/ysharma1126/EAD-Attack) - Pin-Yu Chen et al., AAAI 2018 ✔
 * [Attacking the Madry Defense Model with L1-based Adversarial Examples](https://arxiv.org/abs/1710.10733) - Yash Sharma et al., ICLR 2018 (Workshop) ✔
 
 ### Adversarial Defenses
 * [Distillation as a Defense to Adversarial Perturbations Against Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/7546524/) - Nicolas Papernot et al., 2016
-* [MagNet: a Two-Pronged Defense against Adversarial Examples](https://arxiv.org/abs/1705.09064) - Dongyu Meng et al., CCS 2017
-* [Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks](https://arxiv.org/abs/1704.01155) - Weilin Xu et al., NDSS 2018
-* [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/abs/1805.06605) - Pouya Samangouei et al., ICLR 2018
-* [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204) - Florian Tramèr et al., ICLR 2018
-* [Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/abs/1706.06083) - Aleksander Madry et al., ICLR 2018 ✔
+* [MagNet: a Two-Pronged Defense against Adversarial Examples](https://arxiv.org/abs/1705.09064) [[Code]](https://github.com/Trevillie/MagNet) - Dongyu Meng et al., CCS 2017 ✔
+* [Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks](https://arxiv.org/abs/1704.01155) [[Code]](https://github.com/mzweilin/EvadeML-Zoo) - Weilin Xu et al., NDSS 2018
+* [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/abs/1805.06605) [[Code]](https://github.com/kabkabm/defensegan) - Pouya Samangouei et al., ICLR 2018
+* [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204) - Florian Tramèr et al., ICLR 2018 *
+* [Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/abs/1706.06083) [[Code]](https://github.com/MadryLab/mnist_challenge) - Aleksander Madry et al., ICLR 2018 ✔
+* [Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing Their Input Gradients](https://arxiv.org/abs/1711.09404) - Andrew Slavin Ros et al., AAAI 2018 *
+* [Provable Defenses against Adversarial Examples via the Convex Outer Adversarial Polytope](https://arxiv.org/abs/1711.00851) - Eric Wong et al., ICML 2018 *
+* [Scaling Provable Adversarial Defenses](https://arxiv.org/abs/1805.12514) - Eric Wong et al., NIPS 2018 *
+* [Towards Robust Neural Networks via Random Self-ensemble](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xuanqing_Liu_Towards_Robust_Neural_ECCV_2018_paper.pdf) - Xuanqing Liu et al., ECCV 2018 *
+* [Ensemble Robustness and Generalization of Stochastic Deep Learning Algorithms](https://arxiv.org/abs/1602.02389) - Tom Zahavy et al., ICLR 2018 (Workshop) *
+* [Improving Adversarial Robustness of Ensembles with Diversity Training](https://arxiv.org/abs/1901.09981) - Sanjay Kariyappa et al., ArXiv 2019 *
+* [Improving Adversarial Robustness via Promoting Ensemble Diversity](https://arxiv.org/abs/1901.08846) [[Code]](https://github.com/P2333/Adaptive-Diversity-Promoting) - Tianyu Pang et al., ICML 2019 ✔
 
-### Robustness
-
+### Robustness Analysis
 * [Maximum Resilience of Artificial Neural Networks](https://arxiv.org/abs/1705.01040) - Chih-Hong Cheng et al., ATVA 2017 *
+* [Towards Proving the Adversarial Robustness of Deep Neural Networks](https://arxiv.org/abs/1709.02802) - Guy Katz et al., FVAV 2017 *
 * [Output Range Analysis for Deep Neural Networks](https://arxiv.org/abs/1709.09130) - Souradeep Dutta et al., NFM 2018 *
 * [Formal Security Analysis of Neural Networks using Symbolic Intervals](https://arxiv.org/abs/1804.10829) - Shiqi Wang et al., USENIX Security 2018 *
 * [Efficient Formal Safety Analysis of Neural Networks](https://arxiv.org/abs/1809.08098) - Shiqi Wang et al., NIPS 2018 *
 * [A Unified View of Piecewise Linear Neural Network Verification](https://arxiv.org/abs/1711.00455) - Rudy Bunel et al., NIPS 2018 *
-* [Scaling Provable Adversarial Defenses](https://arxiv.org/abs/1805.12514) - Eric Wong et al., NIPS 2018 *
 * [Evaluating the Robustness of Neural Networks: An Extreme Value Theory Approach](https://arxiv.org/abs/1801.10578) - Tsui-Wei Weng et al., ICLR 2018 *
+* [On The Robustness of a Neural Network](https://arxiv.org/abs/1707.08167) - El Mahdi El Mhamdi et al., SRDS 2019 *
 * [Evaluating Robustness of Neural Networks with Mixed Integer Programming](https://arxiv.org/abs/1711.07356) - Vincent Tjeng et al., ICLR 2019 *
+* [PROVEN: Verifying Robustness of Neural Networks with a Probabilistic](http://proceedings.mlr.press/v97/weng19a/weng19a.pdf) - Tsui-Wei Weng et al., ICML 2019 *
 
 ---
 
@@ -45,7 +53,7 @@ This is a curated list of representative papers on machine learning maintained b
 
 * [Extracting and Composing Robust Features with Denoising Autoencoders](http://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf) - Pascal Vincent et al., ICML 2008 ✔
 * [Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion](http://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf) - Pascal Vincent et al., JMLR 2010 ✔
-* [Anomaly Detection with Robust Deep Autoencoders](https://www.eecs.yorku.ca/course_archive/2017-18/F/6412/reading/kdd17p665.pdf) - Chong Zhou et al., KDD 2018 [[Code]](https://github.com/zc8340311/RobustAutoencoder) ✔
+* [Anomaly Detection with Robust Deep Autoencoders](https://www.eecs.yorku.ca/course_archive/2017-18/F/6412/reading/kdd17p665.pdf) [[Code]](https://github.com/zc8340311/RobustAutoencoder) - Chong Zhou et al., KDD 2018 ✔
 
 ---
 
@@ -86,14 +94,6 @@ The complete list of must-read papers can be found [here](https://github.com/thu
 * [Semi-supervised Learning on Graphs with Generative Adversarial Nets](https://dl.acm.org/citation.cfm?id=3271768) -	Ming Ding et al., CIKM 2018 ✔
 * [NetGAN: Generating Graphs via Random Walks](http://proceedings.mlr.press/v80/bojchevski18a/bojchevski18a.pdf) - Aleksandar Bojchevski et al., ICML 2018
 * [Adversarial Training Methods for Network Embedding](https://dl.acm.org/citation.cfm?id=3313445) - Quanyu Dai et al., WWW 2019 ✔
-
-### Datasets
-
-* [BlogCatalog](http://socialcomputing.asu.edu/datasets/BlogCatalog) is a social network for users to publish blogs. In this dataset, each node is a BlogCatalog user and each edge is a friendship connection. Each node has multiple labels, indicating the topics of the user’s blog topics.
-* [Flickr](http://socialcomputing.asu.edu/datasets/Flickr) is social network for users to share images and videos. In this dataset, each node is a Flickr user and each edge is a friendship connection. Each node has a label, indicating the user’s interest group.
-* [YouTube](http://socialcomputing.asu.edu/datasets/YouTube) is a video sharing site where various interactions occur between users including contacts, subscriptions and favorite videos. In this dataset, each node is a YouTube user and each edge is a friendship connection. Each node has a label, indicating the user’s interest group.
-* [Wikipedia](http://snap.stanford.edu/node2vec/POS.mat) is a co-occurrence network of words appearing in the fist million bytes of the Wikipedia dump. In this dataset, each node is a word and each edge is a word co-occurrence relationship. Each node has a label, indicating the word’s part-of-speech tag.
-* [DBLP](https://aminer.org/citation) is an academic paper citation network built upon the DBLP repository.  In this dataset, each node is a paper and each edge is a citation. Each node has a label, indicating one of the areas for its paper’s conference venue.
 
 ---
 
