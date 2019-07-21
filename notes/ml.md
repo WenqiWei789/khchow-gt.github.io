@@ -32,8 +32,9 @@ This is a curated list of papers on machine learning maintained by [Ka-Ho Chow](
 * [Scaling Provable Adversarial Defenses](https://arxiv.org/abs/1805.12514) - Eric Wong et al., NIPS 2018 *
 * [Towards Robust Neural Networks via Random Self-ensemble](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xuanqing_Liu_Towards_Robust_Neural_ECCV_2018_paper.pdf) - Xuanqing Liu et al., ECCV 2018 *
 * [Ensemble Robustness and Generalization of Stochastic Deep Learning Algorithms](https://arxiv.org/abs/1602.02389) - Tom Zahavy et al., ICLR 2018 (Workshop) *
-* [Improving Adversarial Robustness of Ensembles with Diversity Training](https://arxiv.org/abs/1901.09981) - Sanjay Kariyappa et al., ArXiv 2019 *
+* [Improving Adversarial Robustness of Ensembles with Diversity Training](https://arxiv.org/abs/1901.09981) - Sanjay Kariyappa et al., ArXiv 2019 ✔
 * [Improving Adversarial Robustness via Promoting Ensemble Diversity](https://arxiv.org/abs/1901.08846) [[Code]](https://github.com/P2333/Adaptive-Diversity-Promoting) - Tianyu Pang et al., ICML 2019 ✔
+* [Characterizing Adversarial Subspaces Using Local Intrinsic Dimensionality](https://arxiv.org/abs/1801.02613) - Xingjun Ma et al., ICLR 2018 *
 
 ### Robustness Analysis
 * [Maximum Resilience of Artificial Neural Networks](https://arxiv.org/abs/1705.01040) - Chih-Hong Cheng et al., ATVA 2017 *
@@ -46,6 +47,9 @@ This is a curated list of papers on machine learning maintained by [Ka-Ho Chow](
 * [On The Robustness of a Neural Network](https://arxiv.org/abs/1707.08167) - El Mahdi El Mhamdi et al., SRDS 2019 *
 * [Evaluating Robustness of Neural Networks with Mixed Integer Programming](https://arxiv.org/abs/1711.07356) - Vincent Tjeng et al., ICLR 2019 *
 * [PROVEN: Verifying Robustness of Neural Networks with a Probabilistic](http://proceedings.mlr.press/v97/weng19a/weng19a.pdf) - Tsui-Wei Weng et al., ICML 2019 *
+
+### Technical Reports
+* [The Space of Transferable Adversarial Examples](https://arxiv.org/pdf/1704.03453.pdf) - Florian Tramèr et al., ArXiv 2017 *
 
 ---
 
