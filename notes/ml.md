@@ -25,12 +25,12 @@ This is a curated list of papers on machine learning maintained by [Ka-Ho Chow](
 * [MagNet: a Two-Pronged Defense against Adversarial Examples](https://arxiv.org/abs/1705.09064) [[Code]](https://github.com/Trevillie/MagNet) - Dongyu Meng et al., CCS 2017 ✔
 * [Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks](https://arxiv.org/abs/1704.01155) [[Code]](https://github.com/mzweilin/EvadeML-Zoo) - Weilin Xu et al., NDSS 2018
 * [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/abs/1805.06605) [[Code]](https://github.com/kabkabm/defensegan) - Pouya Samangouei et al., ICLR 2018
-* [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204) - Florian Tramèr et al., ICLR 2018 *
+* [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204) - Florian Tramèr et al., ICLR 2018 ✔
 * [Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/abs/1706.06083) [[Code]](https://github.com/MadryLab/mnist_challenge) - Aleksander Madry et al., ICLR 2018 ✔
 * [Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing Their Input Gradients](https://arxiv.org/abs/1711.09404) - Andrew Slavin Ros et al., AAAI 2018 *
 * [Provable Defenses against Adversarial Examples via the Convex Outer Adversarial Polytope](https://arxiv.org/abs/1711.00851) - Eric Wong et al., ICML 2018 *
 * [Scaling Provable Adversarial Defenses](https://arxiv.org/abs/1805.12514) - Eric Wong et al., NIPS 2018 *
-* [Towards Robust Neural Networks via Random Self-ensemble](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xuanqing_Liu_Towards_Robust_Neural_ECCV_2018_paper.pdf) - Xuanqing Liu et al., ECCV 2018 *
+* [Towards Robust Neural Networks via Random Self-ensemble](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xuanqing_Liu_Towards_Robust_Neural_ECCV_2018_paper.pdf) - Xuanqing Liu et al., ECCV 2018 ✔
 * [Ensemble Robustness and Generalization of Stochastic Deep Learning Algorithms](https://arxiv.org/abs/1602.02389) - Tom Zahavy et al., ICLR 2018 (Workshop) *
 * [Improving Adversarial Robustness of Ensembles with Diversity Training](https://arxiv.org/abs/1901.09981) - Sanjay Kariyappa et al., ArXiv 2019 ✔
 * [Improving Adversarial Robustness via Promoting Ensemble Diversity](https://arxiv.org/abs/1901.08846) [[Code]](https://github.com/P2333/Adaptive-Diversity-Promoting) - Tianyu Pang et al., ICML 2019 ✔
