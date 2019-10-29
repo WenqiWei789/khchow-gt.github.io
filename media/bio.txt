@@ -1,0 +1,3 @@
+Journal
+=======
+Ka-Ho Chow received his BEng and MPhil degrees in computer science from the Hong Kong University of Science and Technology. He is currently working towards the PhD degree in the School of Computer Science, Georgia Institute of Technology, under the supervision of Prof. Ling Liu. His research interests include deep learning, adversarial machine learning, ML for systems, and mobile computing.
