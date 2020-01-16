@@ -130,6 +130,11 @@ ul {
         }
     }
 
+@media screen and (max-width: 600px) {
+    .organization_logo {
+        visibility: hidden;
+        display: none;
+    }
 /* --------------------------------------------
  *   Footer
  *---------------------------------------------- */
