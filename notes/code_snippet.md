@@ -49,3 +49,8 @@ while(1):
 ```bash
 python script_1.py && python script_2.py && python script_3.py 
 ```
+
+2. ImportError: bad magic number
+```bash
+find . -name \*.pyc -delete
+```
