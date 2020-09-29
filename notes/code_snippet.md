@@ -41,6 +41,14 @@ while(1):
 %tensorflow_version 1.x
 ```
 
+3. Auto-click
+```js
+function ClickConnect(){
+console.log("Working"); 
+document.querySelector("colab-toolbar-button").click() 
+}setInterval(ClickConnect,60000)
+```
+
 # Ubuntu
 
 ## Scripts
