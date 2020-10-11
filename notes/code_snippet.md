@@ -121,13 +121,13 @@ sudo sh cuda_10.0.130_410.48_linux
 * cuDNN Developer Library (Deb) - 7.4.2.24-1+cuda10.0
 * cuDNN Code Samples (Deb) - 7.4.2.24-1+cuda10.0
 ```bash
-tar -zxvf cudnn-10.1-linux-x64-v7.6.5.32.tgz
+tar -zxvf cudnn-10.0-linux-x64-v7.4.2.24.tgz
 sudo cp cuda/include/cudnn.h /usr/local/cuda/include
 sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
 sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
-sudo dpkg -i libcudnn7_7.6.5.32–1+cuda10.1_amd64.deb
-sudo dpkg -i libcudnn7-dev_7.6.5.32-1+cuda10.1_amd64.deb
-sudo dpkg -i libcudnn7-doc_7.6.5.32-1+cuda10.1_amd64.deb
+sudo dpkg -i libcudnn7_7.4.2.24-1+cuda10.0_amd64.deb
+sudo dpkg -i libcudnn7-dev_7.4.2.24-1+cuda10.0_amd64.deb
+sudo dpkg -i libcudnn7-doc_7.4.2.24-1+cuda10.0_amd64.deb
 ```
 
 9. Update PATHs
