@@ -77,43 +77,50 @@
                 <div class="publications-wrapper">
                     <h3>Machine Learning for Systems / Systems for Machine Learning</h3>
                     <h4>SRA: Smart Recovery Advisor for Cyber Attacks</h4>
-                    <p>Continuous Data Protection (CDP) is becoming instrumental in recovering applications from crypto-ransomware attacks. It enables fine-grained recovery through journaling, allowing the applications (its volumes) to recover to any previous state. While zero data loss can be achieved during recovery with CDP, the timestamp of the desired restore point, i.e., the one just prior to the attack, needs to be provided to reconstruct the volume. Such information is often unavailable in practice, and system administrators can only adopt a trial-and-error strategy to narrow down the time range of desired restore points by making multiple time-consuming recovery attempts. The recovery systems offer little guidance in pointing to the restore points containing a valid application state and reducing data loss. To address this problem, we equip the CDP-based recovery with machine intelligence and present Smart Recovery Advisor (SRA) in our paper at <a target="_blank" href="media/SIGMOD21_SRA.pdf">SIGMOD 2021</a>, which offers interpretable, data-driven, and feedback-aware restore point recommendations that reduce the number of recovery attempts while minimizing data loss.</p>
+                    <p>Continuous Data Protection (CDP) is becoming instrumental in recovering applications from crypto-ransomware attacks. It enables fine-grained recovery through journaling, allowing the applications (its volumes) to recover to any previous state. While zero data loss can be achieved during recovery with CDP, the timestamp of the desired restore point, i.e., the one just prior to the attack, needs to be provided to reconstruct the volume. Such information is often unavailable in practice, and system administrators can only adopt a trial-and-error strategy to narrow down the time range of desired restore points by making multiple time-consuming recovery attempts. The recovery systems offer little guidance in pointing to the restore points containing a valid application state and reducing data loss. To address this problem, we equip the CDP-based recovery with machine intelligence and present Smart Recovery Advisor (SRA) in our <a target="_blank" href="media/SIGMOD21_SRA.pdf">paper [1]</a> at <a target="_blank" href="https://2021.sigmod.org/">SIGMOD 2021</a>, which offers interpretable, data-driven, and feedback-aware restore point recommendations that reduce the number of recovery attempts while minimizing data loss.</p>
                     <div style="text-align: center;">
                                 <img style="width: 100%; max-width: 700px;" width="50%" src="media/projects_sra_architecture.jpg"></div><p></p>
                     <p>SRA intercepts the block-level read/write requests between the application and its block storage device. The data-driven component extracts salient features from the block-level I/O request stream. Upon initiating a recovery session on the user interface shown below, SRA models normal I/O behavior of the workload and compiles the suspicious events in a ranked list of RPs, where each RP is associated with a recommendation summary to assist administrators in selecting the RP for the next recovery attempt. SRA also collects the user feedback for analysis to refine the strategy of generating the next batch of RP recommendations with recovery semantic inference and session-tailored optimization.</p>
                     <div style="text-align: center;">
                                 <img style="width: 100%;" src="media/projects_sra_screenshots.png"></div><p></p><p></p>
-
                     <h4>Deep Learning at the Edge: Real-time Object Detection with AI Accelerators</h4>
                     <p>
                         With advances in deep neural networks (DNNs), there has been a proliferation of revolutionizing products. Yet, the popularization of such DNN-powered applications is hindered because their success is built on intensive computations and powerful GPUs. This project aims at accelerating deep neural networks on edge devices using Intel Neural Compute Stick 2 (NCS). We show that NCS is capable of speeding up the inference time of complicated neural networks, which can be efficient enough to run locally on edge devices. Such acceleration paves the way to develop ensemble learning on the edge for performance improvement. In our <a target="_blank" href="https://git-disl.github.io/DLEdge/">open-source project</a>, we accelerate the well-known object detection algorithm, named <a target="_blank" href="https://arxiv.org/abs/1804.02767">YOLOv3</a>, and develop a web-based visualization platform to support (ensemble) object detection. Photos and videos from local files or webcam are supported. Frame per second (FPS) is displayed to indicate the speed-up made by one or more NCS devices running in parallel. 
                     </p>
                     <div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/ocFQ7GHWpII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><p></p> 
                     <p>I am fortunate to advise several brilliant students from Georgia Tech on the development of this project: Yu-Lin Chung, Quang Huynh, Hung-Yi Li, Sonia Mathew, and Víctor Castro Serrano.</p> 
+                    <h4>References</h4>
+                    <ol>
+                        <li><u>Ka-Ho Chow</u>, Umesh Deshpande, Sangeetha Seshadri and Ling Liu, "SRA: Smart Recovery Advisor for Cyber Attacks," <i>ACM SIGMOD International Conference on Management of Data (SIGMOD)</i>, Xi'an, Shaanxi, China, Jun. 20-25, 2021. <a target="_blank" href="media/SIGMOD21_SRA.pdf">[PDF]</a></li>
+                    </ol><p></p>
                 </div>
                 <hr>
                 <div class="publications-wrapper">
                     <h3>Adversarial Deep Learning</h3>
-                    <ul>
+                    <h4>Understanding Object Detection Through An Adversarial Lens</h4>
+                    <h4>Deep Neural Network Ensembles Against Deception</h4>
+                    <h4>References</h4>
+                    <ol>
                         <li><u>Ka-Ho Chow</u>, Ling Liu, Margaret Loper, Juhyun Bae, Mehmet Emre Gursoy, Stacey Truex, Wenqi Wei and Yanzhao Wu, "Adversarial Objectness Gradient Attacks on Real-time Object Detection Systems," <i>IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (TPS)</i>, Atlanta, GA, USA, Dec. 1-3, 2020.</li>
                         <li>Wenqi Wei, Ling Liu, Margaret Loper, <u>Ka-Ho Chow</u>, Mehmet Emre Gursoy, Stacey Truex and Yanzhao Wu, "Adversarial Deception in Deep Learning: Analysis and Mitigation," <i>IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (TPS)</i>, Atlanta, GA, USA, Dec. 1-3, 2020.</li>
                         <li><u>Ka-Ho Chow</u>, Ling Liu, Mehmet Emre Gursoy, Stacey Truex, Wenqi Wei and Yanzhao Wu, "Understanding Object Detection Through An Adversarial Lens," <i>European Symposium on Research in Computer Security (ESORICS)</i>, Guildford, United Kingdom, Sep. 14-18, 2020.</li>
                         <li>Wenqi Wei, Ling Liu, Margaret Loper, <u>Ka-Ho Chow</u>, Mehmet Emre Gursoy, Stacey Truex and Yanzhao Wu, "Cross-Layer Strategic Ensemble Defense Against Adversarial Examples," <i>IEEE International Conference on Computing, Networking and Communications (ICNC)</i>, Big Island, Hawaii, USA, Feb. 17-20, 2020.</li>
                         <li><u>Ka-Ho Chow</u>, Wenqi Wei, Yanzhao Wu and Ling Liu, "Denoising and Verification Cross-Layer Ensemble Against Black-box Adversarial Attacks," <i>IEEE International Conference on Big Data</i>, Los Angeles, CA, USA, Dec. 9-12, 2019.</li>
                         <li>Ling Liu, Wenqi Wei, <u>Ka-Ho Chow</u>, Margaret Loper, Mehmet Emre Gursoy, Stacey Truex and Yanzhao Wu, "Deep Neural Network Ensembles against Deception: Ensemble Diversity, Accuracy and Robustness," <i>IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS)</i>, Monterey, CA, USA, Nov. 4-7, 2019.</li>
-                    </ul>
+                    </ol>
                     <p></p>
                 </div>
 
                 <hr>
                 <div class="publications-wrapper">
                     <h3>Machine Learning</h3>
-                    <ul>
+                    <h4>References</h4>
+                    <ol>
                         <li>Yanzhao Wu, Ling Liu, Zhongwei Xie, <u>Ka-Ho Chow</u> and Wenqi Wei, "Boosting Ensemble Accuracy by Revisiting Ensemble Diversity Metrics," <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>, Virtual Event, Jun. 19-25, 2021.</li>
                         <li>Yanzhao Wu, Juhyun Bae, <u>Ka-Ho Chow</u>, Wenqi Wei and Ling Liu, "EnsembleBench: An Evaluation Framework for Ensemble Learning," <i>IEEE International Conference on Cognitive Machine Intelligence (CogMI)</i>, Atlanta, GA, USA, Dec. 1-3, 2020.</li>
                         <li>Lei Yu, Ling Liu, Calton Pu, <u>Ka-Ho Chow</u>, Mehmet Emre Gursoy, Wenqi Wei, Ming Hong, Arun Iyengar, Gong Su, Qi Zhang and Donna Dillenberger, "GRAHIES: Multi-Scale Graph Representation Learning with Latent Hierarchical Structure," <i>IEEE International Conference on Cognitive Machine Intelligence (CogMI)</i>, Los Angeles, CA, USA, Dec. 12-14, 2019.</li>
                         <li>Yanzhao Wu, Ling Liu, Juhyun Bae, <u>Ka-Ho Chow</u>, Arun Iyengar, Calton Pu, Wenqi Wei, Lei Yu and Qi Zhang, "Demystifying Learning Rate Policies for High Accuracy Training of Deep Neural Networks," <i>IEEE International Conference on Big Data</i>, Los Angeles, CA, USA, Dec. 9-12, 2019.</li>
-                    </ul>
+                    </ol>
                     <p></p>
                 </div>
 
@@ -121,21 +128,24 @@
 
                 <div class="publications-wrapper">
                     <h3>Privacy-Preserving Machine Learning</h3>
-                    <ul>
+                    <h4>References</h4>
+                    <ol>
                         <li>Wenqi Wei, Ling Liu, Margaret Loper, <u>Ka-Ho Chow</u>, Mehmet Emre Gursoy, Stacey Truex and Yanzhao Wu, "A Framework for Evaluating Gradient Leakage Attacks in Federated Learning," <i>European Symposium on Research in Computer Security (ESORICS)</i>, Guildford, United Kingdom, Sep. 14-18, 2020.</li>
                         <li>Stacey Truex, Ling Liu, <u>Ka-Ho Chow</u>, Mehmet Emre Gursoy and Wenqi Wei, "LDP-Fed: Federated Learning with Local Differential Privacy," <i>ACM International Workshop on Edge Systems, Analytics and Networking (EdgeSys)</i>, Heraklion, Crete, Greece, Apr. 27, 2020.</li>
-                    </ul>
+                    </ol>
                     <p></p>
                 </div>
 
                 <hr>
 
                 <div class="publications-wrapper">
-                    <h3>Location-based Services</h3>
-                    <ul>
+                    <h3>Mobile Computing</h3>
+                    <h4>Location-based Services</h4>
+                    <h4>References</h4>
+                    <ol>
                         <li><u>Ka-Ho Chow</u>, Suining He, Jiajie Tan and Shueng-Han Gary Chan, "Efficient Locality Classification for Indoor Fingerprint-based Systems," <i>IEEE Transactions on Mobile Computing (TMC)</i>, Vol. 18, No. 2, pp. 290-304, February 2019.</li>
                         <li><u>Ka-Ho Chow</u>, Anish Hiranandani, Yifeng Zhang and Shueng-Han Gary Chan, "Representation Learning of Pedestrian Trajectories Using Actor-Critic Sequence-to-Sequence Autoencoder," <i>Technical Report</i>, Hong Kong University of Science and Technology, Nov. 20, 2018.</li>     
-                    </ul>
+                    </ol>
                     <p></p>
                 </div>
             </div>
