@@ -4,7 +4,7 @@ body {
     line-height : 1.8em;
     color       : #6E6E6E;
     font-weight : 300;
-    background  : #C59353;
+    background  : #f8f8f8;
     }
 
 /* --------------------------------------
@@ -83,7 +83,6 @@ ul {
     margin     : 0;
     position   : relative;
     border-top : 5px solid #C59353;
-    background-color: #f8f8f8;
     }
 
 .header .profile-wrapper
