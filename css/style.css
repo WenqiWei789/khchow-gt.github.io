@@ -129,6 +129,17 @@ ul {
         visibility: hidden;
         display: none;
     }
+    .name-narrow {
+        visibility: visible;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .name-narrow {
+        visibility: hidden;
+        display: none;
+    }
 }
 
 /* --------------------------------------------
