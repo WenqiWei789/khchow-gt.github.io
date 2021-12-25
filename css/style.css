@@ -114,27 +114,23 @@ ul {
     display: inline-block;
     }
 
-@media (max-width : 768px) {
-    .header {
-        padding    : 20px 0;
-        }
-
-    .header .profile-wrapper {
-        margin: 0 0 30px;
-        }
-    }
-
-@media (max-width : 600px){
+@media (max-width : 991px){
     .header{
         padding: 20px;
         }
     }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 991px) {
     .organization_logo {
         visibility: hidden;
         display: none;
     }
+    .name-wrapper {
+        visibility: hidden;
+        display: none;
+    }
+}
+
 /* --------------------------------------------
  *   Footer
  *---------------------------------------------- */
